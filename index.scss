@@ -148,6 +148,47 @@ header{
   .hamburger{
      display: none;
   }
+  img {
+   
+   width: 100%;
+   height: 400px;
+ }
+ 
+ .text-overlay {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: white;
+   p{
+
+       font-size: 35px;
+       span{
+
+           font-family: AkrobatBold;
+
+       }
+   }
+}
+footer{
+   margin-bottom: 0px;
+  
+   a{
+       text-decoration: none;
+   }
+}
+
+
+
+.copyright-contianer{
+   background-color: rgba(0, 0, 0, 0.05);
+   a{
+       text-decoration: none;
+   }
+}
+
+
   @media screen and (max-width: 800px){
      nav{
          position: fixed;
@@ -240,8 +281,35 @@ header{
        
       }
    }
+   img{
+      position: relative;
+      height: 500px;
+  }
+      .text-overlay {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-align: center;
+          color: white;
+
+          p{
+              font-size: 35px;
+              span{
+
+                  font-family: AkrobatBold;
+      
+              }
+          }
+
+          
+      
+      }
+  }
+
+ 
     
-}
+
 @media (min-width: 768px) {  
    .pt-md-6{
       padding-top: 4.5rem !important;
@@ -258,6 +326,29 @@ header{
         width: 100%;
    }
 }
+img{
+   position: relative;
+   height: 500px;
+}
+   .text-overlay {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       text-align: center;
+       color: white;
+
+      p{
+        font-size: 50px;
+        span{
+
+           font-family: AkrobatBold;
+
+        }
+      } 
+
+   
+   }
 }
 @media(min-width: 992px){
    nav{
@@ -280,6 +371,9 @@ header{
         width: 100%;
       }
    }
+   img{
+      height: 600px;
+  }
  }
  @media (min-width: 1400px) { 
    nav{

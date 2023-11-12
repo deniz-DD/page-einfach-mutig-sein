@@ -12121,6 +12121,40 @@ nav {
   display: none;
 }
 
+img {
+  width: 100%;
+  height: 400px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.text-overlay p {
+  font-size: 35px;
+}
+.text-overlay p span {
+  font-family: AkrobatBold;
+}
+
+footer {
+  margin-bottom: 0px;
+}
+footer a {
+  text-decoration: none;
+}
+
+.copyright-contianer {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.copyright-contianer a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 800px) {
   nav {
     position: fixed;
@@ -12211,6 +12245,24 @@ nav {
   .logo .top-container {
     width: 100%;
   }
+  img {
+    position: relative;
+    height: 500px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .text-overlay p {
+    font-size: 35px;
+  }
+  .text-overlay p span {
+    font-family: AkrobatBold;
+  }
 }
 @media (min-width: 768px) {
   .pt-md-6 {
@@ -12227,6 +12279,24 @@ nav {
   }
   .logo .top-container {
     width: 100%;
+  }
+  img {
+    position: relative;
+    height: 500px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  .text-overlay p {
+    font-size: 50px;
+  }
+  .text-overlay p span {
+    font-family: AkrobatBold;
   }
 }
 @media (min-width: 992px) {
@@ -12249,6 +12319,9 @@ nav {
   }
   .logo .top-container {
     width: 100%;
+  }
+  img {
+    height: 600px;
   }
 }
 @media (min-width: 1400px) {
